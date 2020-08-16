@@ -15,8 +15,17 @@ public class Clase1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    System.out.println("HOLA GITHUB");
+        // TODO code application logic here 
+//        funcionesMatematicasSuma Funciones = new funcionesMatematicasSuma(); 
+//        System.out.println(Funciones.Division());
+       
+
+    Coche miCarro = new Coche("TOYOTA",2019,"ROJO");
+    Coche tuCarro = new Coche("Nissan",2019,"Azul");
+    Coche CarroConMasParametros = new Coche("Nissan",2019,"Azul",4);
+    
+//        System.out.println(tuCarro.toString());
+        System.out.println(miCarro.toString());
     }
     
 }
